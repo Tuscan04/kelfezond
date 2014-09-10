@@ -1,0 +1,25 @@
+body {background: none;}
+.socials {top: 32px;}
+#topNavTrigger {display: none;}
+#topNav {float: left; display: block!IMPORTANT; position: relative; top: 0; left: 0; width: 100%; border-top: solid 1px #AD001A;}
+#topNav li {display: inline-block; border: none; padding: 10px 15px 0 0;}
+#topNav li:first-child {margin-left: 0;}
+#topNav a:hover, #topNav a:active {text-decoration: none;}
+.homeImage {display: block; background: transparent url('../images/home-image.jpg') no-repeat; background-size: 100% auto;}
+#sectionButtons {float: none; max-width: 845px; margin: 0 auto;}
+.sectionButton {width: 200px; margin: 10px 0 0 15px;}
+.sectionButton:first-child {margin-left: 0;}
+#intro, #latestBlog {width: 48%;}
+#intro h2, #latestBlog h2 {margin-bottom: 20px; padding: 20px 0 0 0; background: transparent url('../images/titleLine.png') repeat-x;}
+#intro img, #latestBlog img, .item img {margin: 0 15px 10px 0;}
+.item {width: 48%;}
+.item:nth-of-type(odd) {clear: left; margin-right: 4%}
+.item li {margin-left: 0;}
+#contactForm {margin: 10px auto 0;}
+.mod-whiteBox {padding: 0;}
+
+@media all and (min-width: 81.250em) { /* 1300px */
+    #sectionButtons {float: left; max-width: 100%;}
+    .sectionButton {width: 306px; margin: 10px 0 0 15px;}
+    .sectionButton:first-child {margin-left: 0;}
+}

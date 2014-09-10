@@ -1,0 +1,60 @@
+body {font-family: Arial, Times,san serif; overflow-x: hidden; font-size: 1em; background-image: url('../images/bg-sml.jpg'); background-size: 100% auto;}
+#wrapper {position: relative; max-width: 1280px; margin: 0 auto; padding: 5px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+h2 {font-size: 1.250em;}
+h3 {font-size: 1.125em; color: #EF4E60;}
+p, h1, h2, h3, h4, h5 {padding-bottom: 12px;}
+ul {list-style-type: none;}
+li {margin: 0 0 5px 5px; padding-left: 15px;}
+a {text-decoration: none; color: #000066;}
+a:hover {text-decoration: underline;}
+header, main, footer {float: left; width: 100%;}
+header {margin-bottom: 20px;}
+#logo {float: left;}
+#logo img {border: none;}
+.socials {position: absolute; top: 5px; right: 5px;}
+.youtube:hover {opacity: 0.8;}
+.fb-like {top: 3px; margin-right: 10px;}
+#topNavTrigger {float: right; width: 55px; height: 33px; margin-top: 35px; background: transparent url('../images/navTrigger.png') no-repeat;}
+#topNav {display: none; position: absolute; top: 80px; left: 0; z-index: 10; width: 100%; margin-top: 10px; background-color: #FFF; opacity: 0.9;}
+#topNav li, #topNav a {color: #AD001A; text-decoration: none; font-weight: bold;}
+#topNav li {padding: 15px; border-top: solid 2px #AD001A;}
+#topNav li:first-child {border: none;}
+#topNav a {display: block;}
+#topNav a:hover, #topNav a:active {text-decoration: underline; opacity: 0.8;}
+
+.homeImage {display: none; float: left; width: 100%;}
+.homeImage img {width: 100%; height: auto; visibility: hidden;} /* Used to scale background image */
+#intro {float: left; margin-bottom: 20px;}
+#intro img, #latestBlog img, .item img {float: left; max-width: 150px; height: auto; margin: 5px 10px 5px 0;}
+#latestBlog {float: right;}
+#intro h2, #latestBlog h2 {color: #EF4E60;}
+.sectionButton {float: left; width: 100%; max-width: 871px; display: block; position: relative;} .sectionButton:hover {opacity: 0.9;} .sectionButton:active {opacity: 0.7;}
+.sectionButton img {float: left; width: 100%; height: auto;}
+.sectionButton span {float: left; position: relative; top: -50px; left: 20px; border-top: #FFF 1px solid; border-bottom: #FFF 1px solid; padding: 5px; color: #FFF; font-weight: bold; font-size: 1.250em;}
+
+.item, .formBlock {float: left;}
+.item ul {float: left; width: 100%; font-size: 0.875em;}
+.item li {padding: 0 0 5px 0; list-style-type: none;}
+
+.anchorLinks {padding-bottom: 20px;}
+.anchorLinks li {padding-left:15px; background: transparent url('../images/li.gif') no-repeat left center;}
+
+#contactForm {max-width: 872px;}
+.formBlock {width: 100%; padding-bottom: 10px;}
+#contactForm input, #contactForm textarea {margin-top: 5px; border: solid 1px #EF4E60;}
+#contactForm .submitForm {border: none; border-radius: 5px;  font-weight: bold;color: #FFF; background-color: #EF4E60;}
+#contactForm .submitForm:hover {opacity: 0.9;}
+#contactForm .submitForm:active {}
+#contactForm input {width: 100%;}
+#contactForm textarea {float: left; width: 100%; height: 120px;}
+#contactForm .humanTestImage {width: 100%; padding-bottom: 15px; text-align: center;}
+#contactForm .submitForm {width: 100px;}
+
+footer {padding: 20px 0 10px; font-size: 0.625em;}
+
+/* Object-oriented mods */
+.floatL {float: left;}
+.floatR {float: right;} 
+.clearer {clear: both;}
+.mod-whiteBox {width: 100%; margin-bottom: 20px; padding: 8px 5px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;  background-color: rgba(255,255,255,0.6);}
+.borderBox {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
